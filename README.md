@@ -1,6 +1,8 @@
 # IDRiD_Challenge_Mask-RCNN
 
-### The Challenge in (https://idrid.grand-challenge.org/),the the data can be download [here](https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid)
+### The Challenge in (https://idrid.grand-challenge.org/)
+
+the the data can be download [here](https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid)
 
 The Mask RCNN's application in IDRiD(only for challenge 1)
 
