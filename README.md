@@ -22,7 +22,7 @@ The data will store in data,they are too big,so I do not show that.
 ```python 
 python main.py
 ```
-the checkpoint will be stored in directory **checkpoint**
+the checkpoint will be stored in directory **checkpoint**,you can download the pretrained model in [here](https://github.com/yejg2017/IDRiD_Challenge_Mask-RCNN/releases/download/v1.0/checkpoint.zip)
 
 
 *  Step 3: [Demo](./demo.ipynb)
