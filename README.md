@@ -27,3 +27,6 @@ the checkpoint will be stored in directory **checkpoint**,you can download the p
 
 *  Step 3: [Demo](./demo.ipynb)
 Show the Mask and model evaluation
+
+
+![Diabetes](./example.jpg)
