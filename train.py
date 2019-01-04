@@ -57,23 +57,19 @@ class DetectorConfig(Config):
     NAME="IDRiD"
     
     GPU_COUNT=1
-    IMAGES_PER_GPU=2
+    IMAGES_PER_GPU=1
     
     BACKBONE="resnet50"
     
     NUM_CLASSES=1+5 # background +1 pneumonia classes
-    IMAGE_MIN_DIM=512
-    IMAGE_MAX_DIM=512
-    #RPN_ANCHOR_SCALES = (16, 32, 64, 128)
-    TRAIN_ROIS_PER_IMAGE = 512
-    MAX_GT_INSTANCES = 4
-    DETECTION_MAX_INSTANCES = 3
-    DETECTION_MIN_CONFIDENCE = 0.78  ## match target distribution
-    DETECTION_NMS_THRESHOLD = 0.01
-    LEARNING_RATE=0.0001
-    WEIGHT_DECAY=0.0008
-
-    STEPS_PER_EPOCH =500
+    IMAGE_MIN_DIM=800
+    IMAGE_MAX_DIM=1024
+    RPN_ANCHOR_SCALES = (8, 16, 32, 64, 128)
+    TRAIN_ROIS_PER_IMAGE =32
+    LEARNING_RATE=0.00001
+    WEIGHT_DECAY=0.002
+    VALIDATION_STEPS=200
+    STEPS_PER_EPOCH =15000
 
 config=DetectorConfig()
 config.display()
